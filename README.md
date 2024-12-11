@@ -1,5 +1,7 @@
 # Book-Hive
 
+This line is for test: whether new commits will affect original repo (or just forked one)
+
 Welcome to Book-Hive, a platform for readers and book lovers where users can post book reviews, analyze sentiment through TensorFlow.js, and interact with the community by sharing their thoughts. This application leverages modern web technologies and the MVC architecture to provide an engaging user experience
 
 ## Introduction
