@@ -1,0 +1,19 @@
+.book-list {
+  margin: 20px 50px;
+}
+
+.book-item {
+  margin: 5px;
+  padding: 5px;
+  border-radius: 5px;
+}
+
+.book-item img {
+  margin: 5px;
+  padding: 5px;
+  width: 150px;
+}
+
+.book-intro {
+  margin-top: 30px;
+}

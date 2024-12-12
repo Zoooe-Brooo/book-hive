@@ -1,0 +1,117 @@
+.book-container {
+  margin: 10px;
+  margin-top: 20px;
+  padding: 30px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #fff;
+}
+
+.book-info img {
+  width: 250px;
+  margin: 10px;
+  padding: 20px;
+}
+
+.book-details {
+  display: block;
+  text-align: left;
+  padding: 30px;
+}
+
+.book-details h4 {
+  margin-bottom: 10px;
+  display: block;
+  text-align: center;
+}
+
+.review-card {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+/* Star icons */
+.review-stars .star {
+  color: #ffd700; /* Gold color for filled stars */
+}
+
+.review-stars .far {
+  color: #e0e0e0; /* Grey for unfilled stars */
+}
+
+
+
+/* General star styles for review stars */
+.review-stars .star {
+  font-size: 36px;
+  color: #ccc; /* Default grey for unselected stars */
+  cursor: pointer;
+  transition: color 0.2s ease, transform 0.2s ease;
+  font-family: "Arial", sans-serif;
+  margin-right: 5px; /* Space between stars */
+}
+
+/* Maintain existing styles for star-rating component */
+.star-rating {
+  display: flex; /* Aligns stars in a row */
+  align-items: center; /* Optional: Aligns stars vertically centered */
+}
+
+.star-rating .star {
+  font-size: 36px;
+  color: #ccc; /* Default grey for unselected stars */
+  cursor: pointer;
+  transition: color 0.2s ease, transform 0.2s ease;
+  font-family: "Arial", sans-serif;
+  margin-right: 5px; /* Space between stars */
+}
+
+/* Stars for selected ratings */
+.star.selected {
+  color: #FFD700; /* Gold color for selected stars */
+}
+
+.star.unselected {
+  color: #ccc; /* Grey color for unselected stars */
+}
+
+/* Half-selected star for fractional ratings */
+.star.half-selected {
+  background: linear-gradient(90deg, #FFD700 50%, #ccc 50%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+/* Hover effect for individual stars */
+.star:hover {
+  transform: scale(1.2); /* Slight zoom on hover */
+}
+
+/* Specific star colors based on value for the review form */
+.star-rating .star[data-value="1"].selected {
+  color: #FF4C4C; /* Red for 1 star */
+}
+
+.star-rating .star[data-value="2"].selected {
+  color: #FF9F1C; /* Orange for 2 stars */
+}
+
+.star-rating .star[data-value="3"].selected {
+  color: #FFD700; /* Yellow for 3 stars */
+}
+
+.star-rating .star[data-value="4"].selected {
+  color: #B4D455; /* Light green for 4 stars */
+}
+
+.star-rating .star[data-value="5"].selected {
+  color: #4CAF50; /* Green for 5 stars */
+}
+
+/* Book rating info section */
+.book-rating-info {
+  font-size: 1rem;
+  color: #6c757d; /* Grey for rating info */
+  margin-bottom: 10px;
+}
